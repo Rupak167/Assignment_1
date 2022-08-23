@@ -33,11 +33,16 @@ body{
     
     color: white;
     font-size: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
 
 }
 .header-discription{
     color: aliceblue;
-    margin-top: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding-top: 0px;
 
 }
@@ -48,4 +53,194 @@ body{
     padding: 10px 15px;
     margin-top: 20px;
     border-radius: 5px;
+}
+
+/* ---------------------------------
+      Donate part style 
+---------------------------------*/
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.donate-title{
+    color: rgb(5, 5, 5);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.donate-dis{
+    color: #707070;
+}
+.money-op{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.amount{
+    text-decoration: none;
+    color: #707070;
+    margin-right: 45px;
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 5px;
+}
+#select{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+
+}
+
+/*-----------------------------------------
+     Donate Plan Section 
+---------------------------------------*/
+.donate-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.donate-dis1{
+    color: #707070;
+    padding: 50px;
+    margin-top: 0px;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+.mid-div-main{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+.mid-div{
+    margin: 15px;
+    padding: 25PX;
+    border-radius: 25px;
+}
+.mid-div img{
+    width: 45%;
+}
+.mid-div-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Fira Sans', sans-serif;
+}
+#food{
+    background-color: rgba(17, 253, 241, 0.151);
+}
+#education{
+    background-color: #f578423f;
+}
+#shelter{
+    background-color: rgba(255, 255, 0, 0.178);
+}
+.mid-div-1{
+    width: 40%;
+    padding-left: 130px;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+.mid-div-1 img{
+    width: 85%;
+}
+.mid-div-2{
+    width: 60%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+/*---------------------------------------------------
+     Contribute section  
+---------------------------------*/
+.contribute{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 450px;
+    margin-left: 150px;
+    position: relative;
+    margin-top: 250px;
+
+}
+.contribute-img img{
+    width: 100%;
+}
+.contribute-img{
+    width: 1800px;
+}
+.contribute-description{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.discripion{
+    color: #707070;
+    padding-bottom: 30px;
+    
+}
+.contribute-title{
+    color: rgb(5, 5, 5);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+/*-----------------------------------------
+       form design 
+--------------------------------- */
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.form-field{
+    margin-top: 30px;
+}
+#input{
+    height: 40px;
+    width: 300px;
+
+}
+/*-----------------------------------------
+        Footer design 
+--------------------------------- */
+.footer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+.footer p{
+    color: #FF5959;
 }
